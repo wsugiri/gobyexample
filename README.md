@@ -1,2 +1,2 @@
 # gobyexample
-Source Code From https://gobyexample.com/
+Just source code from https://gobyexample.com/
