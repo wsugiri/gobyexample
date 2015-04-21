@@ -19,7 +19,7 @@ func main() {
 
 	// sql := utility.OpenDB()
 	// sql := utility.OpenDB("mysql", "root:123@/benchmark")
-	// sql := utility.OpenDB("mssql", "Server=10.10.5.36;Database=seego;User Id=sa;Password=123")
+	// sql := utility.OpenDB("mssql", "Server=localhost;Database=benchmark;User Id=sa;Password=123")
 	sql := utility.OpenDB("postgres", "user=postgres dbname=benchmark password=1234")
 	defer sql.CloseDB()
 
